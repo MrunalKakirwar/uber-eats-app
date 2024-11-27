@@ -51,3 +51,19 @@ You can test the endpoints using Postman. Below are example requests:
 ### **1. Filter Restaurants**
 ```plaintext
 GET http://127.0.0.1:5000/api/restaurants/filter?location=new%20york&cuisine=italian
+
+### **2. Fetch All Restaurants**
+```plaintext
+GET http://127.0.0.1:5000/api/restaurants
+
+### **3. Fetch Menu**
+```plaintext
+GET http://127.0.0.1:5000/api/menu/1
+
+### **4. Checkout Order**
+```plaintext
+POST http://127.0.0.1:5000/api/order/checkout
+
+### **5. Payment**
+```plaintext
+POST http://127.0.0.1:5000/api/payment
